@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Design Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+         <div class="topnav">
+              <a href="index.html">Home</a>
+             <a href="dogtypes.html">Dog Types</a>
+             <a href="training.html">Training</a>
+             <a class="active"  href="diet.html">Diet</a>
+         </div>
+        </nav>
+
+        <h1 class="textcenter"> Meats and Treats</h1>
+        <img src="DogFoods.jpg" alt="Bags of dog food" class="center">
+        <br><br>
+        <h2>Lorem ipsum dolor</h2>
+        <p class="loremwidth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ab dicta ex assumenda obcaecati nam inventore fugiat soluta, vitae officiis! Rerum sint ex reprehenderit. Nam fugiat eos aperiam illo dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maxime a, fugiat quisquam unde ad odio similique perspiciatis dicta, animi rerum consequatur adipisci natus possimus dolorem optio reiciendis sit ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam at obcaecati laborum dolor delectus repellat aspernatur quidem, sequi totam ea explicabo enim officia, nemo porro quos temporibus neque id! Facilis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis praesentium laudantium illo numquam! Minima error cumque saepe necessitatibus ducimus odit vitae distinctio accusamus modi recusandae, ullam, soluta voluptatum veritatis impedit!</p>
+        <br><br>
+
+        <h2>To sign up for the delivery service please fill out the form.</h2>
+
+        <form>
+    
+            <label for="email">Enter your Email address</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <br><br>
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <br><br>
+            <label for="answer">What type of dog is your dog?</label>
+            <input type="text" id="answer" name="answer" minlength="3" maxlength="10">
+            <br>
+            <p>How often would you like to receive a food & treat package?</p>
+            <input type="radio" name="frequency" value="Daily" id="option1">
+            <label for="option1">Daily</label>
+            <input type="radio" name="frequency" value="Weekly" id="option2">
+            <label for="option1">Weekly</label>
+            <input type="radio" name="frequency" value="Monthly" id="option3">
+            <label for="option1">Monthly</label>
+            <input type="radio" name="frequency" value="Yearly" id="option4">
+            <label for="option1">Yearly</label>
+            <br><br>
+            <label for="question">Security Questions:</label>
+            <select name="question" id="question">
+                <option value="q1">What is your favourite car type?</option>
+                <option value="q2">What was your first pet's name?</option>
+                <option value="q3">What was the name of your elementary school?</option>
+            </select>
+            <br><br>
+            <label for="answer">Security Answer:</label>
+            <input type="text" id="answer" name="answer" minlength="3" maxlength="10">
+            <br><br>
+            <label for="cc">Enter Credit Card Info</label>
+            <input type="text" name="cc" id="cc" min="16" max="18" pattern="[0-9]">
+            <br><br>
+            <input type="reset" name="reset" id="reset">
+            <input type="submit" name="submit" id="submit">
+        
+        </form>
